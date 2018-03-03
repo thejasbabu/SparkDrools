@@ -1,0 +1,8 @@
+import drool.HostNode;
+
+rule "Select Host Type with Health Property greater than 50%"
+    when
+        n: HostNode(NodeType == "HostNode", HealthStatus > 50)
+    then
+        n.setStatus();
+end

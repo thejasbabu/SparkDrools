@@ -1,0 +1,1 @@
+{"condition": [{"type": "host","operation": "+","operand": "10"}, {"type": "host","operation": "+","operand": "5"}]}
